@@ -28,9 +28,5 @@ public class Main {
 
         System.out.println(aInt);
         System.out.println(aFloat);
-
-
-
     }
-
 }
