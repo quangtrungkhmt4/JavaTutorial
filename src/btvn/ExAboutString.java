@@ -1,9 +1,32 @@
 package btvn;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ExAboutString{
     public static void main(String[] args) {
         String string = "hanoioi.hanoioi.hanoidepqua.hanoioi";
 
+        char[] chars = string.toCharArray();
+
+        List<Character> character = new ArrayList<>();
+        List<Integer> count = new ArrayList<>();
+
+        for (int i=0; i< chars.length; i++){
+            if (!character.contains(chars[i])){
+                character.add(chars[i]);
+                count.add(1);
+            }else {
+                int index = character.indexOf(chars[i]);
+                count.set(index, count.get(index) + 1);
+            }
+        }
+
+        for (int i=0; i<character.size(); i++){
+            System.out.print(character.get(i));
+            System.out.print(" -> ");
+            System.out.println(count.get(i) + " lan");
+        }
 
 
 
