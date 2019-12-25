@@ -94,3 +94,8 @@ public static void main(String[] args){
 
     Ví dụ trên là ví dụ điển hình sử dụng Dependency Injection.
 
+
+## Nguồn
+
+* [https://www.journaldev.com/2394/java-dependency-injection-design-pattern-example-tutorial](#https://www.journaldev.com/2394/java-dependency-injection-design-pattern-example-tutorial)
+* [https://loda.me/khai-niem-tight-coupling-lien-ket-rang-buoc-va-cach-loosely-coupled-loda1557323622585/](#https://loda.me/khai-niem-tight-coupling-lien-ket-rang-buoc-va-cach-loosely-coupled-loda1557323622585/)
