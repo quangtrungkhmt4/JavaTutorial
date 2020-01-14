@@ -75,7 +75,7 @@ public class Main {
 
 
 //        System.out.println("ngay 11");
-        getListHour("2020/01/11", 7, "drawId");
+//        getListHour("2020/01/11", 7, "drawId");
 ////        System.out.println("ngay 12");
 //        getListHour("2020/01/12", 7, "drawId");
 //
@@ -84,6 +84,9 @@ public class Main {
 //
 ////        System.out.println("nam 2020");
 //        getListMonth("2020", 7, "drawId");
+
+
+
 
     }
 
@@ -114,7 +117,6 @@ public class Main {
 
                 });
             });
-
             rateMap.put(time, map);
         }
         rateMap.forEach((time, doubleRateMap) -> {
@@ -148,7 +150,7 @@ public class Main {
         DBCursor cursor = collection.find(findObject).sort(sortObj);
 
         Map<String, Map<Double, Rate>> rateMap = new HashMap<>();
-        List<Stastic> stasticList = new ArrayList<>();
+//        List<Stastic> stasticList = new ArrayList<>();
         while (cursor.hasNext()) {
             DBObject dbO = cursor.next();
             BasicDBList listHour = (BasicDBList) dbO.get(LIST_LOG);
@@ -215,7 +217,7 @@ public class Main {
         DBCursor cursor = collection.find(findObject).sort(sortObj);
 
         Map<String, Map<Double, Rate>> rateMap = new HashMap<>();
-        List<Stastic> stasticList = new ArrayList<>();
+//        List<Stastic> stasticList = new ArrayList<>();
         while (cursor.hasNext()) {
             DBObject dbO = cursor.next();
             BasicDBList listHour = (BasicDBList) dbO.get(LIST_LOG);

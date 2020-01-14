@@ -1,5 +1,5 @@
 # Dependency Injection
-* tight-coupling(liên kết ràng buộc): trong lập trình hướng đối tượng từ trc đến nay việc một đối tượng được khởi tạo và sử dụng trong một đối tượng khác là hết sức bình thường và điều đó làm cho việc liên kết giữa chúng hết sức chặt chẽ, điều này gây ra việc khi chúng ta thay đổi logic của một class thì class khác cũng sẽ bị ảnh hưởng và việc bảo trì sẽ khó khăn hơn.
+* tight-coupling(liên kết ràng buộc): trong lập trình hướng đối tượng từ trước đến nay việc một đối tượng được khởi tạo và sử dụng trong một đối tượng khác là hết sức bình thường và điều đó làm cho việc liên kết giữa chúng hết sức chặt chẽ, điều này gây ra việc khi chúng ta thay đổi logic của một class thì class khác cũng sẽ bị ảnh hưởng và việc bảo trì sẽ khó khăn hơn.
 * loosely-coupled(giảm sự ràng buộc): là cách chúng ta ám chỉ việc làm giảm sự phụ thuộc giữa các class với nhau.
 
 ###### Ví dụ về tight-coupling - liên kết ràng buộc
